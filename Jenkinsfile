@@ -3,7 +3,6 @@ pipeline {
   stages {
     stage('stage1') {
       steps {
-        retry(count: 1)
         echo 'Hello World'
       }
     }
